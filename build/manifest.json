@@ -1,6 +1,6 @@
 {
-  "short_name": "Sorting Algorithm Visualization",
-  "name": "A Visualization of Sorting Algorithms",
+  "short_name": "Sorting Algorithms Visualizer",
+  "name": "A visualization for sorting algorithms",
   "icons": [
     {
       "src": "favicon.ico",
