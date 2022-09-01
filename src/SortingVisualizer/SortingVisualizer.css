@@ -33,8 +33,10 @@
 }
 
 .tool-bar-button:hover{
-    margin-top: 0;
+    margin: 5% 5%;
     background-color: rgb(196, 132, 125);
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
     border: 0;
 }
 
@@ -70,16 +72,15 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
 .value-bar{
     background-color: rgb(45, 138, 254);
     display: inline-block;
     margin: 0 2px;
+    transition: height 0.2s ease-in-out;
 }
 
 .bar-container{
-    position: absolute;
-    text-align: center;
+    position: fixed;
     width: 100%;
     margin-top: 20px;
 }
