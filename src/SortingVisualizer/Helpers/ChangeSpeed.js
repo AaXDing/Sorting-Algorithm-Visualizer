@@ -6,6 +6,6 @@ export function changeSpeed(prevSize, newSize, speed){
     }else if(prevSize === 200){
         return setSpeed(newSize, speed * 2);
     }else{
-        return setSpeed(newSize, speed / 10);
+        return setSpeed(newSize, speed / 20);
     }
 }
