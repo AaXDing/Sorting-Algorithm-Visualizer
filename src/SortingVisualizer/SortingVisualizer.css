@@ -16,10 +16,8 @@ body {
     background: -webkit-linear-gradient(rgba(40, 180, 133, 0.8), rgba(40, 180, 133, 0.6),rgba(40, 180, 133, 0.4));
     width: 100%;
     height: 140px;
-    border-style: solid;
-    border-color: rgba(55, 55, 55, 0.8);
-    border-bottom: 10p;
-    border-width: 0px 0px 2px 0px;
+    border: 0 solid rgba(55,55,55,.8);
+    border-bottom-width: 2px;
 }
 
 .header-left {
