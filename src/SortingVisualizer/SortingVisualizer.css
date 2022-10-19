@@ -113,10 +113,10 @@ body {
 
 .value-bar {
     background-color: rgb(33, 127, 243);
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    display: inline-block;
-    vertical-align: bottom;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    display:inline-block;
+    vertical-align: top;
     margin: 0 2px;
     transition: height 0.2s ease-in-out;
 }
@@ -126,7 +126,6 @@ body {
     height: calc(100% - 140px);
     position: absolute;
     width: 100%;
-    padding-top: 10px;
 }
 
 .github-pic:hover {
