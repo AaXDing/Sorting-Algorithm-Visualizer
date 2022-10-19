@@ -40,7 +40,7 @@ export default class SortingVisualizer extends React.Component {
         let bars = document.getElementsByClassName('value-bar');
         setTimeout(() => {
             for (let i = 0; i < size; i++) {
-                bars[i].style.backgroundColor = 'rgb(45, 138, 254)';
+                bars[i].style.backgroundColor = 'rgb(33, 127, 243)';
                 bars[i].style.width = `${width}px`;
             }
         }, 30)
@@ -79,7 +79,7 @@ export default class SortingVisualizer extends React.Component {
     updateRange(animation, x) {
         var bars = document.getElementsByClassName('value-bar');
         var timeVal = 0;
-        var height = window.innerHeight;
+        var height = window.innerHeight - 150;
         for (let i = 0; i < animation.length; i++) {
             if (animation[i][0] === 0) {
                 let left = animation[i][1];
@@ -109,7 +109,7 @@ export default class SortingVisualizer extends React.Component {
         console.log(x);
         var bars = document.getElementsByClassName('value-bar');
         for (let i = 0; i < bars.length; i++) {
-            bars[i].style.backgroundColor = 'rgb(45, 138, 254)';
+            bars[i].style.backgroundColor = 'rgb(33, 127, 243)';
         }
         for (let i = 0; i < animation.length; i++) {
             let idx1 = animation[i][1];
@@ -119,8 +119,8 @@ export default class SortingVisualizer extends React.Component {
                 bars[idx2].style.backgroundColor = 'pink';
             }, i * x)
             setTimeout(() => {
-                bars[idx1].style.backgroundColor = 'rgb(45, 138, 254)';
-                bars[idx2].style.backgroundColor = 'rgb(45, 138, 254)';
+                bars[idx1].style.backgroundColor = 'rgb(33, 127, 243)';
+                bars[idx2].style.backgroundColor = 'rgb(33, 127, 243)';
             }, (i + 1) * x)
             if (animation[i][0] === 1) {
                 setTimeout(() => {
@@ -154,7 +154,7 @@ export default class SortingVisualizer extends React.Component {
 
     render() {
         const array = this.state.array;
-        const height = window.innerHeight - 140;
+        const height = window.innerHeight -150;
 
         return (
             <>

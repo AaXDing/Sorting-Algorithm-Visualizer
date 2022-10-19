@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Sorting-Algorithm-Visualizer/static/css/main.afdfcc80.css",
-    "main.js": "/Sorting-Algorithm-Visualizer/static/js/main.70bba4b4.js",
+    "main.css": "/Sorting-Algorithm-Visualizer/static/css/main.176b2f6f.css",
+    "main.js": "/Sorting-Algorithm-Visualizer/static/js/main.68556419.js",
     "static/js/787.dec4b0ce.chunk.js": "/Sorting-Algorithm-Visualizer/static/js/787.dec4b0ce.chunk.js",
     "index.html": "/Sorting-Algorithm-Visualizer/index.html",
-    "main.afdfcc80.css.map": "/Sorting-Algorithm-Visualizer/static/css/main.afdfcc80.css.map",
-    "main.70bba4b4.js.map": "/Sorting-Algorithm-Visualizer/static/js/main.70bba4b4.js.map",
+    "main.176b2f6f.css.map": "/Sorting-Algorithm-Visualizer/static/css/main.176b2f6f.css.map",
+    "main.68556419.js.map": "/Sorting-Algorithm-Visualizer/static/js/main.68556419.js.map",
     "787.dec4b0ce.chunk.js.map": "/Sorting-Algorithm-Visualizer/static/js/787.dec4b0ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afdfcc80.css",
-    "static/js/main.70bba4b4.js"
+    "static/css/main.176b2f6f.css",
+    "static/js/main.68556419.js"
   ]
 }
